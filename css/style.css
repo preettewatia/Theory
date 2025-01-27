@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", serif;
+
+}
+
+.inner {
+    width: 80%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.main {
+    width: 100%;
+    height: 100VH;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: URL("../Theory-image/1.jpg");
+}
+
+h4 {
+
+    float: left;
+}
+
+ul {
+    float: right;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+}
+
+ul li a {
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner {
+    position: relative;
+    top: 200px;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    font-weight: 50px;
+    font-size: 50px;
+}
+
+
+.banner p {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.second-main {
+    /* background-color: blue; */
+    margin-top: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+
+
+.one {
+    /* background-color: chocolate; */
+    width: 30%;
+    float: left;
+}
+
+.two {
+    /* background-color: cyan; */
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    /* border-left:0.1px solid gray; */
+    /* padding-left:2%; */
+    /* border-right:0.1px solid gray; */
+    border-left: 0.1px solid gray;
+    padding-left: 2%;
+    border-right: 0.1px solid gray;
+}
+
+.three {
+    /* background-color: rgb(30, 143, 16); */
+    width: 30%;
+    float: right;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    /* font-size: medium; */
+}
+
+
+
+.third-main {
+    background-color: #3498db;
+}
+
+.third-section {
+    /* background-color: #2dc213; */
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    padding-bottom: 90px;
+}
+
+
+.box-1 {
+    float: left;
+    /* background-color: chartreuse; */
+    width: 20%;
+    margin-right: 6%;
+    border-width: 0.1px;
+    border-color: white;
+    border-style: solid;
+}
+
+.box-2 {
+    float: left;
+    /* background-color: #651cdb; */
+    width: 20%;
+    border-width: 0.1px;
+    border-color: white;
+    border-style: solid;
+}
+
+.box-3 {
+    float: left;
+    /* background-color: rgb(251, 28, 32); */
+    width: 20%;
+    margin-left: 7%;
+    border-width: 0.1px;
+    border-color: white;
+    border-style: solid;
+}
+
+
+.box-4 {
+    float: right;
+    /* background-color: deeppink; */
+    width: 20%;
+    border-width: 0.1px;
+    border-color: white;
+    border-style: solid;
+}
+
+.third-main img {
+    border-radius:100%;
+    width: 50%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+
+p {
+    margin-bottom: 50px;
+}
+
+
+
+.third-section h1 {
+    margin-bottom: 10px;
+}
+
+.third-section h5 {
+    margin-bottom: 50px;
+}
+
+
+
+
+.fourth-main{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    text-align: center;
+
+}
+
+.fourth-main .left{
+    width: 48%;
+    float: left;
+}
+
+.fourth-main .right{
+    width: 48%;
+    float: right;
+}
+
+.fourth-main img{
+    width: 100%;
+}
+
+
+
+.fourth-main h1 {
+    color: #5385c1;
+    font-size: 40px
+}
+
+.fourth-main h2 {
+    padding-top:20px;
+    color: #5385c1;
+}
+
+
+
+footer {
+    /* background-color: #e21115; */
+    padding-bottom: 50px;
+    border-top: 0.1px solid gray;
+
+}
+
+
+footer h1 {
+    float: left;
+    font-size: 15px;
+    /* width: 50%; */
+}
+
+footer span {
+    float: right;
+    margin-left: 20px;
+    color: #3498db;
+    /* font-size: 10px;  */
+    /* width: 50%; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:767px)
+{
+
+      .second-main .one,      .second-main .two,       .second-main .three {
+        width: 100%;
+        text-align: center;
+        /* background-color: red; */
+      }
+
+
+      .second-main .two{
+        margin-left: 0%;
+        /* border-top:0.1px solid grey; */
+        border-left: 0;
+        border-right: 0;
+        /* border-bottom:0.1px solid grey; */
+        margin-top: 35px;
+        margin-bottom: 35px;
+      }
+
+      .second-main .two{
+        padding-left:0%;
+      }
+
+
+      .third-section .box-1, .box-2, .box-3, .box-4{
+        width: 100%;
+      }
+
+
+
+
+      .third-section .box-3{
+        margin-left: 0;
+      }
+
+      .third-section .box-2, .box-3, .box-4{
+        margin-top: 50px;
+      }
+
+
+      .fourth-main .left{
+        width: 100%;
+        margin-bottom: 50px;
+      }
+
+      .fourth-main .right{
+       width: 100%;
+      }
+
+
+
+
+
+
+}
+    
